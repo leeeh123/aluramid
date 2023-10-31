@@ -5,8 +5,10 @@ function tocaSomPom(){
 
 
  let contador = 0
-
- while (contador < 9)  {
+ 
+ 
+ while (contador < listaDeBotoes.length)  {
      listaDeBotoes[contador].onclick = tocaSomPom;
-     contador = contador +1;
- }
+     console.log("contador: " + contador);
+    contador += 1;
+ } 
